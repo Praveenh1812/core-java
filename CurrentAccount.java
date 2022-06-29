@@ -20,12 +20,12 @@ class CurrentAccount extends BankAccount{
    return amount;
   }
   
-  public double withdraw(double withd)
+  public double withdraw(double amt)
   {
     System.out.println("invoke withdraw()");
-	System.out.println(" amount to be withdraw "+ withd);
+	System.out.println(" amount to be withdraw "+ amt);
 	System.out.println("the Amount before withdraw "+ amount);
-	amount = amount - withd;
+	amount = amount - amt;
 	System.out.println(" The Total Balance is "+ amount);
     System.out.println(" withdraw method ended ");
        count++;
