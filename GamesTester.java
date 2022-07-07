@@ -4,16 +4,16 @@ class GamesTester{
 	
 	
 	
-	Games g = new Games();
+	GamesDTO g = new GamesDTO();
 	
-	g.setname("Hand ball");
-	g.setgameType("group game");
-	g.setnoOfPlayers(7);
-	g.setmatchDuration("40 mins");
+	g.setname(" batmitton");
+	g.setgameType("group");
+	g.setnoOfPlayers(8);
+	g.setmatchDuration("15mins");
 	
 	
 	
-	System.out.println(g.getname() +  " " + g.getgameType() + " " + g.getnoOfPlayers() + " " + g.getmatchDuration());
+	System.out.println(g.getname() +  " is a game " +" which is played in " + g.getgameType() + " number of players are " + g.getnoOfPlayers() + " ........the duration of match is " + g.getmatchDuration());
 	
 	
 	

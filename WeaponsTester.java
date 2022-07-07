@@ -1,18 +1,18 @@
 class WeaponsTester{
 
 
-public static void main (String a[]){
+	public static void main (String a[]){
 
-			Weapons w = new Weapons();
+		WeaponsDTO w = new WeaponsDTO();
 			
-			w.setname("paris gun");
-			w.setmanufacturedIn(1918);
-			w.setrange(121);
-			w.setshellVelocity(5260);
+		w.setname("Pistol");
+		w.setmanufacturedIn(1865);
+		w.setrange(100);
+		w.setshellVelocity(5260);
 			
 			
 			
-			System.out.println(w.getname() + " " + w.getmanufacturedIn() + " " + w.getrange() + " " + w.getshellVelocity());
+		System.out.println("Name is "+ w.getname() + " manufacture in " + w.getmanufacturedIn() + ".......... the range of the pistol is " + w.getrange() + " and the velosity is " + w.getshellVelocity());
 
 
 

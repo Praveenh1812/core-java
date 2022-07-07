@@ -1,32 +1,18 @@
 class MusicPlayerTester{
 
-public static void main(String a[]){
-
-MusicPlayer mP = new MusicPlayer();
-
-mP.setname("BPL");
-mP.setpType("Record Player");
-mP.setmaxLevel("80-115db");
-mP.setmaxVolume(15);
-
-
-System.out.println(mP.getname() + " " +mP.getpType() + " " + mP.getmaxLevel() + " " + mP.getmaxVolume());
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+	public static void main(String a[]){
+	
+	MusicPlayerDTO music = new MusicPlayerDTO();
+	music.setName("Resso");
+	music.setIsAvailable(true);
+	music.setNumber(1000);
+	music.setPrice(199);
+	music.setSubscription(false);
+	music.toListen();
+	
+	System.out.println("The name of the music app is "+ music.getName()+" is this app available  "+music.getIsAvailable()+"...........total number of songs are  "+music.getNumber()+".........the price for ads free app is  "+music.getPrice()+"........Is subscription available "+music.getSubscription()+" ........ ");
+	
+	}
 
 
 

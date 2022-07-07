@@ -1,9 +1,9 @@
 class OximeterTester{
 
-public static void main(String a[]){
+	public static void main(String a[]){
 
 
-	Oximeter ox = new Oximeter();
+	OximeterDTO ox = new OximeterDTO();
 	
 	ox.setname("vandely");
 	ox.setprice(2900);
@@ -12,7 +12,7 @@ public static void main(String a[]){
 	
 	
 	
-	System.out.println(ox.getname() + " " + ox.getprice() + " " + ox.getbatteryPercentage() + " " + ox.getoxygenContent());
+	System.out.println("the name of oximeter is "+ox.getname() + ".... cost is " + ox.getprice() + " present battery persentage " + ox.getbatteryPercentage() + " ...oxygen content is " + ox.getoxygenContent());
 
 
 
